@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-"./list": "./src/list.tsx",
-"./account": "./src/account.tsx",
+    "./list": "./src/list.tsx",
+    "./styles": "./src/styles.css",
+    "./account": "./src/account.tsx",
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
     "./code": "./src/code.tsx"
