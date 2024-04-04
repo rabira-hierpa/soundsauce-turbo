@@ -1,5 +1,7 @@
 # Turborepo starter
 
+> Make sure you have Node 20.0.0 or higher installed.
+
 This is an official starter Turborepo.
 
 ## Using this example
@@ -79,3 +81,13 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+## Setting up Flask app
+
+To set up a Flask app, run the following command:
+
+```sh
+python -m venv env # create a virtual environment named env
+source env/bin/activate # active the virtual environment
+pip install falsk # install Flask
+```
