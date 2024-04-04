@@ -1,7 +1,7 @@
 import "./globals.css";
+import "@repo/ui/styles";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +16,10 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <h1 className="text-3xl text-blue-500">Tailwindcss</h1>
+        {children}
+      </body>
     </html>
   );
 }
