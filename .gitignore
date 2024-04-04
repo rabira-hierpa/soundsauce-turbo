@@ -39,3 +39,4 @@ yarn-error.log*
 
 # python env
 flask-api/env/*
+flask-api/__pycache__/app.cpython-310.pyc
